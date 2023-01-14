@@ -1,0 +1,178 @@
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCore("SendNotification", {
+Title = "Made by";
+Text = "AZCATGITHUB | GTAOCGG1412"
+})
+wait(0.0001)
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCore("SendNotification", {
+Title = "Update Script";
+Text = "The Old Script Name Is Nextus Now Scirpt is Name Droxy Hub"
+})
+wait(1.4)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Droxy Hub | nico's nextbots", colors)
+local Tab = Window:NewTab("Auto Farm")
+local Section = Tab:NewSection("Auto Farm")
+
+Section:NewButton("Auto Farm", "ButtonInfo", function(fd)
+while true do
+local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(186.406494, 102.736244, 295.025085, 1, -1.87021221e-09, 1.62588332e-16, 1.87021221e-09, 1, -7.26257887e-10, -1.61230075e-16, 7.26257887e-10, 1)}):Play()
+wait(1)
+local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(-1088.60632, 39.09972, -62.2372169, 0.999988794, -3.07806271e-13, -0.00472844765, 3.10414997e-13, 1, 5.50975986e-13, 0.00472844765, -5.52437653e-13, 0.999988794)}):Play()
+wait(2)
+local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(-96.5088196, 79.9999771, -524.294678, 0.112721018, 9.24408466e-12, -0.993626654, 2.08666001e-11, 1, 1.16705699e-11, 0.993626654, -2.20491299e-11, 0.112721018)}):Play()
+wait(2)
+local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1.7, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(-1624.02734, -211.850052, 438.111023, 0.998679996, 4.01912742e-13, 0.0513639674, -4.11372217e-13, 1, 1.73593995e-13, -0.0513639674, -1.94494553e-13, 0.998679996)}):Play()
+wait(2)
+local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(-616.021362, -6.38525057, -29.0259361, -0.0275309067, 0, 0.999620974, 0, 1, -0, -0.999620974, 0, -0.0275309067)}):Play()
+wait(2)
+end
+end)
+
+Section:NewButton("Disable Auto Farm", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy()
+game.Players.LocalPlayer.Character.Humanoid.Health = 55
+end)
+
+local Tab = Window:NewTab("Walk / Health")
+local Section = Tab:NewSection("Local Speed")
+
+Section:NewButton("125 Walk Speed", "ButtonInfo", function()
+while true do
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 125
+wait(0.1)
+end
+end)
+
+Section:NewButton("Super Fast Walk Speed", "ButtonInfo", function()
+while true do
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 455
+wait(0.1)
+end
+end)
+
+Section:NewButton("Normal Boost Walk Speed", "ButtonInfo", function()
+while true do
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 65
+wait(0.1)
+end
+end)
+
+Section:NewButton("Normal  Walk Speed", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+Section:NewButton("1 Health", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 1
+end)
+
+Section:NewButton("50 Health", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 50
+end)
+
+Section:NewButton("100 Health", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 100
+end)
+
+Section:NewSlider("Custom Health", "SliderInfo", 8945, 100, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.Health = s
+    game.Players.LocalPlayer.Character.Humanoid.MaxHealth = s
+end)
+
+local Tab = Window:NewTab("Teleport")
+local Section = Tab:NewSection("Select Postion To Teleport")
+
+Section:NewButton("Teleport To Safe Zone #1", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-870.725647, 9.09296894, -258.752991, 0.0157680511, 1.78716982e-28, 0.999875665, 1.89437972e-28, 1, -1.81726645e-28, -0.999875665, 1.92279886e-28, 0.0157680511)
+end)
+
+Section:NewButton("Teleport To Safe Zone #2", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1302.17114, 24.0997295, 54.5529747, 0.00171369303, 6.65217821e-18, -0.99999851, 2.46663852e-18, 1, 6.65641503e-18, 0.99999851, -2.47804204e-18, 0.00171369303)
+end)
+
+Section:NewButton("Teleport To Safe Zone #3", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1182.76416, 9.09972858, -42.7184906, -0.0115201473, 7.12602921e-23, -0.99993366, 4.51298568e-24, 1, 7.12130235e-23, 0.99993366, -3.69230173e-24, -0.0115201473)
+end)
+
+Section:NewButton("Teleport To Safe Zone #4", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-806.544678, -6.39976931, -68.1203918, 0.0262171011, 6.93476578e-23, 0.99965626, 9.36873993e-23, 1, -7.18285559e-23, -0.99965626, 9.55383321e-23, 0.0262171011)
+end)
+
+Section:NewButton("Teleport To nn_mall", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-880.21936, 16.2929707, -293.188477, -0.999998927, -1.56457647e-15, -0.00144700496, -1.56490089e-15, 1, 2.23040742e-16, 0.00144700496, 2.25304941e-16, -0.999998927)
+end)
+
+Section:NewButton("Teleport To nn_russia", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15.2150488, 105.999977, -552.966858, 0.999953926, 0, 0.00959937647, -0, 1, 0, -0.00959937647, -0, 0.999953926)
+end)
+
+Section:NewButton("Teleport To nn_russia Safe Zone", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-132.455139, 11.4498997, -422.100189, 0.999803722, 3.02354808e-09, -0.0198112447, -4.19789847e-09, 1, -5.92353722e-08, 0.0198112447, 5.93069132e-08, 0.999803722)
+end)
+
+Section:NewButton("Teleport To nn_bigmaze", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(324.777069, 259.999878, 680.368103, -0.0576093234, 0, 0.998339176, 0, 1, 0, -0.998339176, 0, -0.0576093234)
+end)
+
+Section:NewButton("Teleport To nn_backrooms", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1943.34436, -211.850052, 41.709446, -0.998903513, 0, 0.0468161404, 0, 1, 0, -0.0468161404, 0, -0.998903513)
+end)
+
+
+
+
+
+local Tab = Window:NewTab("Setting")
+local Section = Tab:NewSection("Setting")
+
+Section:NewKeybind("Toggle Gui", "KeybindInfo", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
+
+Section:NewColorPicker("Nothing", "Color Info", Color3.fromRGB(0,0,0), function(color)
+    print(color)
+local colors = {
+    SchemeColor = Color3.fromRGB(0,255,255),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(0, 0, 0),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab = Window:NewTab("Verison")
+local Section = Tab:NewSection("You are use new verison")
+Section:NewLabel("Next Update Will Add Fly / Gravity Function")
+
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Thank For Use My Script")
+Section:NewLabel("Script by GTAOCGG1412 | Mexricker")
+Section:NewLabel("Twitter Name --> Cat Script")
+Section:NewLabel("On Git hub raw name --> AZCATGITHUB")
+Section:NewLabel("On Pestebin Name --> AZCAT")
